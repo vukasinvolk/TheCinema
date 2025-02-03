@@ -1,0 +1,106 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #0d1117;
+    color: #e6edf3;
+    margin: 0;
+    padding: 0;
+  }
+  
+
+  .navbar {
+    background: linear-gradient(135deg, #1e1e2f, #24243e);
+    padding: 15px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  .navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #ffcc00;
+  }
+  .nav-link {
+    color: #e6edf3 !important;
+    transition: color 0.3s;
+  }
+  .nav-link:hover {
+    color: #ffcc00 !important;
+  }
+  
+  .header-content {
+    text-align: center;
+    padding: 100px 20px;
+  }
+  .header-content h1 {
+    font-size: 3rem;
+    color: #ffcc00;
+    animation: glow 1.5s infinite alternate;
+  }
+  
+
+  .btn-primary {
+    background: #ffcc00;
+    border: none;
+    color: #121212;
+    font-weight: bold;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .btn-primary:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(255, 204, 0, 0.8);
+  }
+  
+  section {
+    margin: 50px auto;
+    padding: 30px;
+    width: 90%;
+    max-width: 1100px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+  }
+  section:hover {
+    transform: scale(1.02);
+  }
+  
+  h2 {
+    text-align: center;
+    color: #ffcc00;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .card {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    transition: all 0.3s ease;
+  }
+  .card:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-5px);
+  }
+  
+  .card-title {
+    color: #ffcc00;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .card-subtitle {
+    color: #bdbdbd;
+  }
+  
+  footer {
+    background: #121212;
+    padding: 20px;
+    text-align: center;
+    font-size: 1rem;
+    color: #ffcc00;
+  }
+  
+  @keyframes glow {
+    0% { text-shadow: 0 0 5px #ffcc00; }
+    50% { text-shadow: 0 0 15px #ffcc00; }
+    100% { text-shadow: 0 0 5px #ffcc00; }
+  }
+  

@@ -1,0 +1,92 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #0d1117;
+    color: #e6edf3;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background: linear-gradient(135deg, #1e1e2f, #24243e);
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ffcc00;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #bdbdbd;
+  }
+  
+  section {
+    margin: 50px auto;
+    padding: 20px;
+    width: 90%;
+    max-width: 1000px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+  }
+  
+  section:hover {
+    transform: scale(1.02);
+  }
+  
+  /* Títulos */
+  h2 {
+    text-align: center;
+    color: #ffcc00;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .card {
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    transition: all 0.3s ease;
+  }
+  
+  .card:hover {
+    background: #ffffff65;
+    transform: translateY(-5px);
+  }
+  
+  .card-body ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .card-body li {
+    padding: 10px 0;
+    font-size: 1.1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  footer {
+    text-align: center;
+    background: #121212;
+    padding: 20px;
+    font-size: 1rem;
+    color: #ffcc00;
+  }
+  
+
+  @keyframes glow {
+    0% { text-shadow: 0 0 5px #ffcc00; }
+    50% { text-shadow: 0 0 15px #ffcc00; }
+    100% { text-shadow: 0 0 5px #ffcc00; }
+  }
+  
+  h1, h2 {
+    animation: glow 1.5s infinite alternate;
+  }
+  
